@@ -28,7 +28,7 @@ public class Calculator1 {
         result = calculate(number1,op,number2);
     
        drawLine();
-       System.out.printf("%f %c %f = %f\n",number1,op,number2,result);
+       System.out.printf("%f %c %f = %.2f\n",number1,op,number2,result);
        drawLine();
        
    }
